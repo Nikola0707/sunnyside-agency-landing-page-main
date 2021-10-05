@@ -1,0 +1,32 @@
+.main-content-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.main-content-container div{
+    width: 100%;
+    height: 700px;
+}
+.egg-image{
+    background-image: url('../../assets/desktop/image-transform.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.glass-image{
+    background-image: url('../../assets/desktop/image-stand-out.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.chery-image{
+    background-image: url('../../assets/desktop/image-graphic-design.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.orange-image{
+    background-image: url('../../assets/desktop/image-photography.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
