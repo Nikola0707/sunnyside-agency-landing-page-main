@@ -1,23 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
-
+import "./App.css";
+import NavBar from "./Components/NavBar/NavBar.component";
+import Arrow from './assets/icon-arrow-down.svg'
+import MainContent from "./Components/MainContent/MainContent.component";
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+    <div className="container">
+      <header>
+        <NavBar />
+        <h1>WE ARE CREATIVES</h1>
+        <img src={Arrow} alt="arrow-down" />
       </header>
+      <main>
+        <MainContent />
+      </main>
+      <footer></footer>
     </div>
   );
 }

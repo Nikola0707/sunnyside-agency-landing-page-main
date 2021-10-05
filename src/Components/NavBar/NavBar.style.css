@@ -1,0 +1,26 @@
+.navbar-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 30px;
+    padding: 20px 0 100px 0;
+}
+.navbar-ul {
+    width: 20%;
+}
+.navbar-ul ul {
+    display: flex;
+    color: #ffffff;
+    justify-content: space-between;
+    align-items:center
+}
+.navbar-ul li{
+    list-style-type: none;
+}
+.navbar-ul ul button{
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    background:#ffffff;
+    color: #000000;
+}
