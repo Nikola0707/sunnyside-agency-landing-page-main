@@ -41,7 +41,7 @@
   display: none;
 }
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 768px) {
   .mobile {
     display: flex;
     justify-content: space-between;
@@ -87,7 +87,14 @@
     border-bottom: 100px solid #fff;
     border-left: 100px solid transparent;
     position: absolute;
-    top: 12%;
+    top: 9%;
     right: 10%;
+  }
+  .navbar-ul li a:hover {
+    border-bottom: 3px solid rgb(58, 58, 58);;
+  }
+  .navbar-ul ul li button:hover {
+    background: rgb(58, 58, 58);
+    color: #fff;
   }
 }

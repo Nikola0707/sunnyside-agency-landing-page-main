@@ -33,3 +33,14 @@
   color: #fff;
   cursor: pointer;
 }
+@media only screen and (max-width: 768px) {
+  .footer-container {
+    height: 30vh;
+  }
+  .footer-container .nav {
+    width: 80%;
+  }
+  .social-connections-icons{
+    width: 50%;
+  }
+}

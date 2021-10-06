@@ -17,7 +17,7 @@ const MainContent = () => {
       </div>
       <div className="egg-image"></div>
       <div className="glass-image"></div>
-      <div>
+      <div className=" order-4">
         <div className="text-wrapper">
           <h2>Stand out to the right audience</h2>
           <p>
