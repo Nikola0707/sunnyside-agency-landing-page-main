@@ -5,9 +5,12 @@
   padding: 0;
   margin: 0;
 }
+body{
+  color: #23303e;
+}
 header{
   background-image: url('./assets/desktop/image-header.jpg');
-  background-position: 50% 55%;
+  background-position: 50% 100%;
   background-size: cover;
   background-repeat: no-repeat;
   text-align: center;
@@ -17,8 +20,9 @@ header{
 header h1{
   font-family: 'Fraunces', serif;
   letter-spacing: 10px;
+  font-size: 3.75rem;
   font-weight: 900;
 }
 header img{
-  margin-top: 80px;
+  margin-top: 160px;
 }

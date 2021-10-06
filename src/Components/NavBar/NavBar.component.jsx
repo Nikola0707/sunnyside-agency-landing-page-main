@@ -51,7 +51,7 @@ const NavBar = () => {
                 smooth={true}
                 duration={1500}
               >
-                Contact
+                CONTACT
               </Link>
             </button>
           </li>

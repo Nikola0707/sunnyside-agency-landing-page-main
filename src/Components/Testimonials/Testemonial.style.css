@@ -1,0 +1,39 @@
+.testimonials-container{
+    text-align: center;
+    padding: 10%;
+    height: 100vh;
+}
+.testimonials-container h3{
+    font-size: 30px;
+    color:#979797;
+    font-family: 'Fraunces', serif;
+    letter-spacing: 5px;
+}
+.testemonails-cards-wrapper{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.testimonial-card-container{
+    margin-top: 20%;
+}
+.testimonial-image{
+    margin-bottom: 15%;
+}
+.testimonial-image img{
+    width: 80px;
+    border-radius: 100%;
+}
+.testimonial-content{
+    width: 80%;
+    margin: 0 auto 10%;
+    color: #646464;
+}
+.name{
+    font-size: 22px;
+    font-family: 'Fraunces', serif;
+    font-weight: 900;
+    margin-bottom: 3%;
+}
+.position{
+    color: #646464;
+}

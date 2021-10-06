@@ -10,9 +10,9 @@ const MainContent = () => {
             grow fast. Engage your clients through compelling visuals that do
             most of the marketing for you.
           </p>
-            <a href="/">
-              <span className="learn-more-yellow">LEARN MORE</span>
-            </a>
+          <a href="/" className="learn-more-yellow">
+            <span>LEARN MORE</span>
+          </a>
         </div>
       </div>
       <div className="egg-image"></div>
@@ -25,8 +25,8 @@ const MainContent = () => {
             photographers, videographers, and copywriters, we'll build and
             extend your brand inn digital places.
           </p>
-          <a href="/">
-            <span className="learn-more-red">LEARN MORE</span>
+          <a href="/" className="learn-more-red">
+            <span>LEARN MORE</span>
           </a>
         </div>
       </div>
@@ -42,7 +42,7 @@ const MainContent = () => {
       </div>
       <div className="orange-image">
         <div className="text-wrapper">
-          <h2>Photoraphy</h2>
+          <h2>Photography</h2>
           <p>
             Increase your credibility by getting the most stunning, high-quality
             photos that improve your business image.

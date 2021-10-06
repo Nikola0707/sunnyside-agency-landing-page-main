@@ -35,35 +35,47 @@
   font-family: "Fraunces", serif;
 }
 .text-wrapper {
-  width: 400px;
+  width: 550px;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
 .text-wrapper h2 {
-  font-size: 36px;
-  width: 400px;
+  font-size: 50px;
+  width: 550px;
   margin: 0 0 30px;
 }
 .text-wrapper p {
-  width: 520px;
+  width: 550px;
   font-size: 18px;
   color: grey;
 }
 .text-wrapper a {
+  width: 165px;
   display: block;
   margin-top: 50px;
+  padding: 8px;
   text-decoration: none;
   color: #000;
   font-family: "Fraunces", serif;
   font-weight: 900;
+  color: #23303e;
+  position: relative;
 }
-.learn-more-yellow {
-  border-bottom: 10px solid rgba(255, 255, 0, 0.561);
+.text-wrapper a::before {
+  content: "";
+  width: 100%;
+  border-bottom: 8px solid #fad400;
+  position: absolute;
+  bottom: 8px;
+  left: 0px;
+  z-index: -1;
+  border-radius: 10px;
+  opacity: 0.3;
 }
-.learn-more-red {
-  border-bottom: 10px solid rgba(253, 92, 92, 0.534);
+.text-wrapper  .learn-more-red::before {
+  border-bottom: 8px solid #fe7867;
 }
 .chery-image .text-wrapper,
 .orange-image .text-wrapper {
