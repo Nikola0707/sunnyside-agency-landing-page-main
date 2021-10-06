@@ -15,7 +15,7 @@ function App() {
         <h1>WE ARE CREATIVES</h1>
         <Link
           activeClass="active"
-          to="content"
+          to="about"
           spy={true}
           smooth={true}
           duration={1500}

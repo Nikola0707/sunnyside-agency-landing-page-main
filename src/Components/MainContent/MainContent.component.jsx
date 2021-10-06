@@ -1,8 +1,8 @@
 import "./MainContent.style.css";
 const MainContent = () => {
   return (
-    <div className="main-content-container">
-      <div>
+    <div className="main-content-container" id="about">
+      <div id="services">
         <div className="text-wrapper">
           <h2>Transform your brand</h2>
           <p>

@@ -7,7 +7,7 @@ import "./Images.style.css";
 
 const Images = () => {
   return (
-    <div className="images-container">
+    <div className="images-container" id="projects">
       <div>
         <img src={MilkBottles} alt="imag" />
       </div>
