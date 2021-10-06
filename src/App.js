@@ -6,6 +6,7 @@ import Arrow from "./assets/icon-arrow-down.svg";
 import MainContent from "./Components/MainContent/MainContent.component";
 import Testimonials from "./Components/Testimonials/Testimonials.component";
 import Images from "./Components/Images/Images.component";
+import Footer from "./Components/Footer/Footer.component";
 function App() {
   return (
     <div className="container">
@@ -27,7 +28,9 @@ function App() {
         <Testimonials />
         <Images />
       </main>
-      <footer></footer>
+      <footer>
+        <Footer />
+      </footer>
     </div>
   );
 }
