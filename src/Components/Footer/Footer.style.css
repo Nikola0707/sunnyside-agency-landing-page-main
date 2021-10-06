@@ -28,3 +28,8 @@
   font-size: 1.5rem;
   color: #327969;
 }
+.nav ul a:hover,
+.social-connections-icons ul a:hover{
+  color: #fff;
+  cursor: pointer;
+}

@@ -43,17 +43,7 @@ const NavBar = () => {
             </Link>
           </li>
           <li>
-            <button>
-              <Link
-                activeClass="active"
-                to="contact"
-                spy={true}
-                smooth={true}
-                duration={1500}
-              >
-                CONTACT
-              </Link>
-            </button>
+            <button>CONTACT</button>
           </li>
         </ul>
       </div>
